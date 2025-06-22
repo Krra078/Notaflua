@@ -1,0 +1,9 @@
+local count = 1
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Message";
+    Text = "Hi " .. tostring(count);
+    Duration = 5;
+})
+
+count = count + 1
