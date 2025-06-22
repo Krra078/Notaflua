@@ -2,7 +2,7 @@ local count = 1
 
 game.StarterGui:SetCore("SendNotification", {
     Title = "Message";
-    Text = "HL9 " .. tostring(count);
+    Text = "HL1 " .. tostring(count);
     Duration = 5;
 })
 
